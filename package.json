@@ -1,0 +1,38 @@
+{
+  "name": "mkv-translate",
+  "version": "1.0.0",
+  "description": "MKV anime file extrack subtitle and translate thai.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd node index.js",
+    "build": "pkg package.json --icon app.ico --output mkv-translate.exe",
+    "eslint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "bin": {
+    "mkv-translate": "index.js"
+  },
+  "pkg": {
+    "icon": "app.ico",
+    "targets": [
+      "node10"
+    ]
+  },
+  "keywords": [],
+  "author": "Kananek T.",
+  "license": "ISC",
+  "dependencies": {
+    "@touno-io/debuger": "^2.0.2",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "eslint": "^6.7.2",
+    "pkg": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.0.26.157/thkanane/ris-birthday-bot.git"
+  }
+}
