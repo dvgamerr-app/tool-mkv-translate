@@ -4,7 +4,7 @@
   "description": "MKV anime file extrack subtitle and translate thai.",
   "main": "index.js",
   "scripts": {
-    "dev": "env-cmd node index.js",
+    "dev": "node index.js",
     "build": "pkg package.json --icon app.ico --output mkv-translate.exe",
     "eslint": "eslint --ext .js --ignore-path .gitignore ."
   },
@@ -24,7 +24,8 @@
     "@touno-io/debuger": "^2.0.2",
     "moment": "^2.24.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "yargs": "^15.1.0"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1",

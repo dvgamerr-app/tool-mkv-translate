@@ -1,21 +1,25 @@
+const logger = require('@touno-io/debuger')('translate')
 const { promises: fs, existsSync } = require('fs')
 const path = require('path')
 const err = require('./error')
+const yargs = require('yargs')
 
-const { spawn } = require('child_process');
-const ls = spawn('ls', ['-lh', '/usr']);
+// const { spawn } = require('child_process');
+// const ls = spawn('ls', ['-lh', '/usr']);
 
-ls.stdout.on('data', (data) => {
-  console.log(`stdout: ${data}`);
-});
+// ls.stdout.on('data', (data) => {
+//   console.log(`stdout: ${data}`);
+// });
 
-ls.stderr.on('data', (data) => {
-  console.error(`stderr: ${data}`);
-});
+// ls.stderr.on('data', (data) => {
+//   console.error(`stderr: ${data}`);
+// });
 
-ls.on('close', (code) => {
-  console.log(`child process exited with code ${code}`);
-});
+// ls.on('close', (code) => {
+//   console.log(`child process exited with code ${code}`);
+// });
+
+ 
 
 const dirMKVToolNix = 'C:/Program Files/MKVToolNix'
 const mkvextract = 'mkvextract.exe'
@@ -27,7 +31,11 @@ const checkMKVTool = async () => {
   if (!existsSync(path.join(dirMKVToolNix, mkvextract))) throw new Error(err.NO_MKV_TOOL)
   if (!existsSync(path.join(dirMKVToolNix, mkvinfo))) throw new Error(err.NO_MKV_TOOL)
   if (!existsSync(path.join(dirMKVToolNix, mkvmerge))) throw new Error(err.NO_MKV_TOOL)
-
+  for await (const file of yargs.argv._) {
+    if (existsSync(file)) {
+      logger.log(file)
+    }
+  }
 }
 
-checkMKVTool()
+checkMKVTool().catch(logger.error)
