@@ -4,35 +4,73 @@ const path = require('path')
 const err = require('./error')
 const yargs = require('yargs')
 
-// const { spawn } = require('child_process');
-// const ls = spawn('ls', ['-lh', '/usr']);
-
-// ls.stdout.on('data', (data) => {
-//   console.log(`stdout: ${data}`);
-// });
-
-// ls.stderr.on('data', (data) => {
-//   console.error(`stderr: ${data}`);
-// });
-
-// ls.on('close', (code) => {
-//   console.log(`child process exited with code ${code}`);
-// });
-
- 
+const { spawn } = require('child_process')
 
 const dirMKVToolNix = 'C:/Program Files/MKVToolNix'
 const mkvextract = 'mkvextract.exe'
 const mkvinfo = 'mkvinfo.exe'
 const mkvmerge = 'mkvmerge.exe'
+const getTrackInfo = async file => {
+  let raw = await onExecute(path.join(dirMKVToolNix, mkvinfo), [ file ])
+  let data = {
+    filename: path.basename(file),
+    tracks: []
+  }
+  let uid = -1
+  for (const line of raw.split('\n')) {
+    if (/^\|.\+.Track/ig.test(line)) uid++
+    if (uid < 0) continue
+    const row = /^\|.+?\+.(?<name>.*?):(?<val>.*)/ig.exec(line)
+    if (!row) continue
+    if (!data.tracks[uid]) data.tracks[uid] = {}
+    let { name, val } = row.groups
+    name = name.trim().replace(/\W/ig, '-').toLowerCase()
+    
+    switch (name) {
+      case 'track-number':
+        val = parseInt(/\d+/ig.exec(val.trim())[0])
+        data.tracks[uid]['uid'] = val - 1
+        data.tracks[uid][name] = val
+        break;
+      default:
+        data.tracks[uid][name] = val.trim()
+        break
+    }
+  }
+  return data
+}
 
-const avgGetListMKV = async () => {
+const getSubtitle = async (file, track) => {
+  let ext = '.srt'
+  if (track['codec-id'] === 'S_TEXT/ASS') {
+    ext = '.mks'
+  } else if (track['codec-id'] === 'S_HDMV/PGS') {
+    ext = '.mks'
+  } else {
+    console.dir(track)
+    throw new Error('Unknow Subtitle extension.')
+  }
+  await onExecute(path.join(dirMKVToolNix, mkvextract), [ 'tracks', file, `${track.uid}:${path.basename(file)}-${track.uid}${ext}` ])
+}
+
+const onExecute = async (exe, args = []) => {
+  const ls = spawn(exe, args)
+  return new Promise((resolve, reject) => {
+    let data = ''
+    ls.stdout.on('data', buff => data += buff.toString())
+    ls.stderr.on('data', buff => data += buff.toString())
+    ls.on('close', code => (!code) ? resolve(data) : reject(data))
+  })
+}
+ 
+
+const onFindAnime = async () => {
   let data = []
   for await (const file of yargs.argv._) {
     if (existsSync(file)) {
       const stat = await fs.stat(file)
       if (stat.isDirectory()) {
-        for await (const list of await fs.readdir(file)) {
+        for (const list of await fs.readdir(file)) {
           if (path.extname(list) === '.mkv') data.push(path.join(file, list))
         }
       } else {
@@ -48,12 +86,24 @@ const checkMKVTool = async () => {
   if (!existsSync(path.join(dirMKVToolNix, mkvextract))) throw new Error(err.NO_MKV_TOOL)
   if (!existsSync(path.join(dirMKVToolNix, mkvinfo))) throw new Error(err.NO_MKV_TOOL)
   if (!existsSync(path.join(dirMKVToolNix, mkvmerge))) throw new Error(err.NO_MKV_TOOL)
-
-  let anime = await avgGetListMKV()
-  console.log(anime)
+  logger.log('MKVToolNix Installed.')
+  logger.log('Finding .mkv file...')
+  let anime = await onFindAnime()
+  logger.log(`tracking info file scan subtitle.`)
+  for await (const fullpath of anime) {
+    let info = await getTrackInfo(fullpath)
+    for (const track of info.tracks) {
+      if (track['track-type'] === 'subtitles') {
+        logger.info(` - ${info.filename} (${track['codec-id']})`)
+        await getSubtitle(fullpath, track)
+      }
+    }
+  }
 }
 
-checkMKVTool().catch(logger.error)
+checkMKVTool().then(() => {
+  logger.success(`anime translate.`)
+}).catch(logger.error)
 
 // mkvinfo.exe C:/Users/GoogleDrive/Sync.Office-Central/test2_subtitle.mkv
 
