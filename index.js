@@ -1,6 +1,7 @@
 const logger = require('@touno-io/debuger')('translate')
 const { promises: fs, existsSync } = require('fs')
 const path = require('path')
+const os = require('os')
 const err = require('./error')
 const yargs = require('yargs')
 
@@ -40,17 +41,34 @@ const getTrackInfo = async file => {
   return data
 }
 
+const assReader = async file => {
+  const buff = await fs.readFile(file)
+  await fs.unlink(file)
+
+  let pos = 0
+  const ass = await fs.open(path.basename(file), 'w')
+  for await (let line of buff.toString().split('\n')) {
+    if (/^Dialogue/ig.test(line)) {
+      // console.log(line)
+    }
+    line = `${line}\n`
+    await ass.write(Buffer.from(line, 'utf-8'), 0, line.length, pos)
+    pos += line.length
+  }
+  await ass.close()
+  console.log(path.basename(file))
+}
+
 const getSubtitle = async (file, track) => {
-  let ext = '.srt'
   if (track['codec-id'] === 'S_TEXT/ASS') {
-    ext = '.mks'
-  } else if (track['codec-id'] === 'S_HDMV/PGS') {
-    ext = '.mks'
+    const extrackName = path.join(os.tmpdir(), `${path.basename(file)}-${track.uid}.ass`)
+    if (existsSync(extrackName)) await fs.unlink(extrackName)
+    await onExecute(path.join(dirMKVToolNix, mkvextract), [ 'tracks', file, `${track.uid}:${extrackName}` ])
+    await assReader(extrackName)
   } else {
     console.dir(track)
-    throw new Error('Unknow Subtitle extension.')
+    // throw new Error('Unknow Subtitle extension.')
   }
-  await onExecute(path.join(dirMKVToolNix, mkvextract), [ 'tracks', file, `${track.uid}:${path.basename(file)}-${track.uid}${ext}` ])
 }
 
 const onExecute = async (exe, args = []) => {
@@ -62,7 +80,7 @@ const onExecute = async (exe, args = []) => {
     ls.on('close', code => (!code) ? resolve(data) : reject(data))
   })
 }
- 
+
 
 const onFindAnime = async () => {
   let data = []
@@ -89,21 +107,40 @@ const checkMKVTool = async () => {
   logger.log('MKVToolNix Installed.')
   logger.log('Finding .mkv file...')
   let anime = await onFindAnime()
+  
+  if (!anime.length) throw new Error(err.NO_FILEORDIR)
   logger.log(`tracking info file scan subtitle.`)
   for await (const fullpath of anime) {
     let info = await getTrackInfo(fullpath)
     for (const track of info.tracks) {
       if (track['track-type'] === 'subtitles') {
-        logger.info(` - ${info.filename} (${track['codec-id']})`)
-        await getSubtitle(fullpath, track)
+        let subtitle = await getSubtitle(fullpath, track)
+        logger.info(` - ${subtitle} (${track['codec-id']})`)
       }
     }
   }
 }
 
-checkMKVTool().then(() => {
+checkMKVTool().then(async () => {
+  const { Translate } = require('@google-cloud/translate').v2
+
+  // Creates a client
+  const translate = new Translate()
+
+  let [ translations ] = await translate.translate('Hello world', { to: 'th' })
+  translations = Array.isArray(translations) ? translations : [ translations ]
+  console.log('Translations:');
+  translations.forEach((translation, i) => {
+    console.log(`${i} => (th) ${translation}`)
+  })
+  
+
+
   logger.success(`anime translate.`)
 }).catch(logger.error)
+
+// GOOGLE_APPLICATION_CREDENTIALS=
+// https://cloud.google.com/translate/docs/basic/setup-basic
 
 // mkvinfo.exe C:/Users/GoogleDrive/Sync.Office-Central/test2_subtitle.mkv
 

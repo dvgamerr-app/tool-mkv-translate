@@ -1,0 +1,356 @@
+﻿[Script Info]WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+Title: HorribleSubs
+PlayResX: 720
+PlayResY: 480
+ScriptType: v4.00+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,0,0,0,0,84.9057,100.0,0.0,0.0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:18.31,0:00:21.43,Default,,0,0,0,,Nothing but the same anime, \Nday in day out.
+Dialogue: 0,0:00:21.60,0:00:23.89,Default,,0,0,0,,It's like he has no emotions whatsoever.
+Dialogue: 0,0:00:24.44,0:00:28.02,Default,,0,0,0,,It sometimes feels like he doesn't even \Nrecognize me as his mother.
+Dialogue: 0,0:00:28.52,0:00:32.15,Default,,0,0,0,,That cut on his forehead \Nwill probably leave a scar.
+Dialogue: 0,0:00:32.65,0:00:35.70,Default,,0,0,0,,His father does nothing \Nto help me at all.
+Dialogue: 0,0:00:35.86,0:00:37.82,Default,,0,0,0,,He says he's on a business trip today too.
+Dialogue: 0,0:00:38.24,0:00:40.29,Default,,0,0,0,,But I know that's a lie.
+Dialogue: 0,0:00:40.66,0:00:42.79,Default,,0,0,0,,He's not on any business trip.
+Dialogue: 0,0:00:43.50,0:00:46.75,Default,,0,0,0,,To make matters worse, \NSatoru just sits watching the same anime.
+Dialogue: 0,0:00:46.96,0:00:49.50,Default,,0,0,0,,His father puts all the blame on me.
+Dialogue: 0,0:00:49.67,0:00:52.67,Default,,0,0,0,,He thinks it's my fault that \Nour son was born this way.
+Dialogue: 0,0:00:53.01,0:00:55.93,Default,,0,0,0,,I suppose that's why he spites me \Nby having affairs.
+Dialogue: 0,0:00:56.59,0:01:00.43,Default,,0,0,0,,I know.  \N I'll just have to get my own back...
+Dialogue: 0,0:01:00.60,0:01:02.43,Default,,0,0,0,,I'll get back at him...
+Dialogue: 0,0:01:03.02,0:01:05.35,Default,,0,0,0,,by committing suicide!
+Dialogue: 0,0:01:10.86,0:01:12.15,Default,,0,0,0,,Satoru!
+Dialogue: 0,0:01:13.82,0:01:15.32,Default,,0,0,0,,Stop it, Satoru!
+Dialogue: 0,0:01:15.78,0:01:20.66,Default,,0,0,0,,What are you doing? \NWhy do you always do this...?
+Dialogue: 0,0:01:20.87,0:01:24.87,Default,,0,0,0,,Why? Why does he behave like that, doctor?
+Dialogue: 0,0:01:25.04,0:01:30.21,Default,,0,0,0,,I can't stop thinking I should \Njust have him committed...
+Dialogue: 0,0:01:33.26,0:01:37.09,Default,,0,0,0,,These hospitals are always so dreary...
+Dialogue: 0,0:01:39.55,0:01:41.22,Default,,0,0,0,,No smoking in the hospital!
+Dialogue: 0,0:01:41.68,0:01:43.56,Default,,0,0,0,,Please go find a smoking area!
+Dialogue: 0,0:01:44.56,0:01:47.27,Default,,0,0,0,,Mind your own business, sausage legs!
+Dialogue: 0,0:01:47.44,0:01:51.94,Default,,0,0,0,,I'm obviously smoking by the toilet \Nbecause I couldn't find the smoking area!
+Dialogue: 0,0:01:52.11,0:01:54.48,Default,,0,0,0,,Mr. Katsuragi, no smoking in the hospital.
+Dialogue: 0,0:01:54.82,0:01:55.94,Default,,0,0,0,,Hayashi!
+Dialogue: 0,0:01:56.11,0:02:00.53,Default,,0,0,0,,If you hurried the hell up, \NI wouldn't have some woman bothering me!
+Dialogue: 0,0:02:00.74,0:02:03.91,Default,,0,0,0,,I was out in the car park looking for you.
+Dialogue: 0,0:02:04.12,0:02:05.25,Default,,0,0,0,,Shut it!
+Dialogue: 0,0:02:05.91,0:02:09.75,Default,,0,0,0,,And don't even think about showing me \Nyour endoscopy trick.
+Dialogue: 0,0:02:11.38,0:02:12.50,Default,,0,0,0,,Mr. Katsuragi.
+Dialogue: 0,0:02:14.67,0:02:17.51,Default,,0,0,0,,I think that kid might be one.
+Dialogue: 0,0:02:19.09,0:02:20.51,Default,,0,0,0,,You can tell?
+Dialogue: 0,0:02:21.30,0:02:22.64,Default,,0,0,0,,Maybe.
+Dialogue: 0,0:02:23.06,0:02:24.64,Default,,0,0,0,,I was like that as a kid too.
+Dialogue: 0,0:02:28.73,0:02:31.40,Default,,0,0,0,,Oh no, looks like I got  \N the wrong return time.
+Dialogue: 0,0:02:39.91,0:02:42.91,Default,,0,0,0,,I can't take much more...
+Dialogue: 0,0:02:43.45,0:02:47.16,Default,,0,0,0,,Enough! Why am I the only one to suffer? \NYou always take it out on me...
+Dialogue: 0,0:02:47.54,0:02:49.37,Default,,0,0,0,,Hey. How's it going?
+Dialogue: 0,0:02:49.71,0:02:52.04,Default,,0,0,0,,This place doesn't seem like much fun.
+Dialogue: 0,0:02:52.63,0:02:55.05,Default,,0,0,0,,Who are you, mister?
+Dialogue: 0,0:02:56.09,0:02:58.80,Default,,0,0,0,,I'm a bit like Matasaburo, \Nthe wind spirit.
+Dialogue: 0,0:02:59.01,0:03:00.34,Default,,0,0,0,,Matasa...?
+Dialogue: 0,0:03:00.51,0:03:04.22,Default,,0,0,0,,Right... I guess you're too young \Nto know that story.
+Dialogue: 0,0:03:06.10,0:03:08.93,Default,,0,0,0,,So, this is all your mom's \Ninner turmoil, is it?
+Dialogue: 0,0:03:09.14,0:03:11.94,Default,,0,0,0,,You sure visit some scary places.
+Dialogue: 0,0:03:12.60,0:03:14.69,Default,,0,0,0,,Is that why you always sit so still?
+Dialogue: 0,0:03:15.69,0:03:16.57,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:03:16.98,0:03:22.07,Default,,0,0,0,,You visit these scary places because \Nthe portal to your heart is always open.
+Dialogue: 0,0:03:22.41,0:03:23.45,Default,,0,0,0,,Portal?
+Dialogue: 0,0:03:24.28,0:03:25.58,Default,,0,0,0,,A portal's like a door.
+Dialogue: 0,0:03:26.20,0:03:28.45,Default,,0,0,0,,It can be opened and closed.
+Dialogue: 0,0:03:28.79,0:03:30.62,Default,,0,0,0,,You mean the Everywhere Door?
+Dialogue: 0,0:03:31.37,0:03:32.71,Default,,0,0,0,,The Everywhere Door?
+Dialogue: 0,0:03:33.63,0:03:34.63,Default,,0,0,0,,That there.
+Dialogue: 0,0:03:35.92,0:03:38.63,Default,,0,0,0,,Huh... pretty impressive, kid.
+Dialogue: 0,0:03:38.88,0:03:40.05,Default,,0,0,0,,Why d'you say that?
+Dialogue: 0,0:03:40.59,0:03:45.14,Default,,0,0,0,,Using an "image" like that \Nis something not everybody can do.
+Dialogue: 0,0:03:45.76,0:03:51.31,Default,,0,0,0,,Now, let's use this door to go to \Nyour favorite place in the world.
+Dialogue: 0,0:03:52.60,0:03:54.73,Default,,0,0,0,,My favorite place in the world...?
+Dialogue: 0,0:03:55.19,0:03:57.23,Default,,0,0,0,,Ah, right...
+Dialogue: 0,0:03:57.48,0:04:00.90,Default,,0,0,0,,You don't have \Nany memories of your own yet.
+Dialogue: 0,0:04:01.36,0:04:05.57,Default,,0,0,0,,Let's try it this way then. I'll share \Na place from my memories with you.
+Dialogue: 0,0:04:06.20,0:04:08.95,Default,,0,0,0,,Okay, let's open the door together.
+Dialogue: 0,0:04:10.58,0:04:11.58,Default,,0,0,0,,Here we go.
+Dialogue: 0,0:04:26.51,0:04:30.14,Default,,0,0,0,,This is the place in my memories \NI like the most.
+Dialogue: 0,0:04:31.22,0:04:34.94,Default,,0,0,0,,Mr. Matasa, this place isn't scary at all.
+Dialogue: 0,0:04:37.48,0:04:39.44,Default,,0,0,0,,Doesn't the wind feel great?
+Dialogue: 0,0:04:40.11,0:04:42.19,Default,,0,0,0,,The wind can travel anywhere.
+Dialogue: 0,0:04:42.74,0:04:43.82,Default,,0,0,0,,Anywhere?
+Dialogue: 0,0:04:44.32,0:04:47.95,Default,,0,0,0,,That's right. \NThe wind taught me something.
+Dialogue: 0,0:04:48.16,0:04:51.04,Default,,0,0,0,,That I have the power \Nto freely shape my future.
+Dialogue: 0,0:04:51.24,0:04:54.87,Default,,0,0,0,,The ability to mold it as I choose. \NAn ability called an "image".
+Dialogue: 0,0:04:57.29,0:04:59.75,Default,,0,0,0,,Let's make this place your "peak".
+Dialogue: 0,0:05:00.17,0:05:01.25,Default,,0,0,0,,My peak?
+Dialogue: 0,0:05:01.46,0:05:02.88,Default,,0,0,0,,So...
+Dialogue: 0,0:05:03.47,0:05:06.72,Default,,0,0,0,,The place that holds \Nyour most treasured memories.
+Dialogue: 0,0:05:07.34,0:05:12.22,Default,,0,0,0,,Any bad memories, you should put away \Nin another place, your "valley".
+Dialogue: 0,0:05:12.89,0:05:15.77,Default,,0,0,0,,If you make a "peak" and a "valley" \Nlike that,
+Dialogue: 0,0:05:15.94,0:05:18.52,Default,,0,0,0,,you can live a normal life, \Nthe same as everyone else.
+Dialogue: 0,0:05:20.23,0:05:21.48,Default,,0,0,0,,Now, listen closely.
+Dialogue: 0,0:05:21.82,0:05:25.11,Default,,0,0,0,,This is the most important thing of all.
+Dialogue: 0,0:05:27.99,0:05:31.16,Default,,0,0,0,,Keep your peak and your valley \Nclosed to all others.
+Dialogue: 0,0:05:31.37,0:05:34.16,Default,,0,0,0,,Don't let anyone touch or alter them \Nin any way.
+Dialogue: 0,0:05:35.00,0:05:40.09,Default,,0,0,0,,IN THE LANDSCAPE OF THE HUMAN MEMORY, \N"THEY" GAVE NAMES TO JUST TWO LOCI,
+Dialogue: 0,0:05:40.25,0:05:42.88,Default,,0,0,0,,"PEAKS" AND "VALLEYS".
+Dialogue: 0,0:07:13.01,0:07:14.85,Default,,0,0,0,,THE CRUSHERS
+Dialogue: 0,0:07:17.39,0:07:18.43,Default,,0,0,0,,Say, Tsukasa.
+Dialogue: 0,0:07:18.89,0:07:21.60,Default,,0,0,0,,What do you say we open up \Na bar, down the line?
+Dialogue: 0,0:07:21.77,0:07:23.90,Default,,0,0,0,,I bet it'd be a lot of fun.
+Dialogue: 0,0:07:25.15,0:07:27.28,Default,,0,0,0,,Somewhere like this dingy drinking hole.
+Dialogue: 0,0:07:27.44,0:07:28.94,Default,,0,0,0,,Dingy is it?
+Dialogue: 0,0:07:29.40,0:07:31.74,Default,,0,0,0,,Sure, but I'll be the manager.
+Dialogue: 0,0:07:31.91,0:07:32.99,Default,,0,0,0,,Says who?
+Dialogue: 0,0:07:33.11,0:07:35.45,Default,,0,0,0,,In that case, I get to be the director.
+Dialogue: 0,0:07:36.45,0:07:38.24,Default,,0,0,0,,Check it out, fireworks!
+Dialogue: 0,0:07:38.75,0:07:40.66,Default,,0,0,0,,Or should I say, waterworks!
+Dialogue: 0,0:07:41.96,0:07:43.88,Default,,0,0,0,,What're you doing, dumbass!
+Dialogue: 0,0:07:44.17,0:07:45.84,Default,,0,0,0,,You're getting everything wet!
+Dialogue: 0,0:07:46.00,0:07:50.34,Default,,0,0,0,,-I told you to put the parasol away first! \N-You ain't scary from up there, man.
+Dialogue: 0,0:07:50.51,0:07:52.55,Default,,0,0,0,,Hey, I heard that, Hiroki!
+Dialogue: 0,0:07:52.72,0:07:55.51,Default,,0,0,0,,Kenji's hearing is incredible...
+Dialogue: 0,0:07:56.10,0:07:59.77,Default,,0,0,0,,Dammit. Now it's going to get all moldy.
+Dialogue: 0,0:08:06.61,0:08:09.19,Default,,0,0,0,,Hey. Go get changed, you two.
+Dialogue: 0,0:08:09.57,0:08:11.40,Default,,0,0,0,,What's it to you? We'll just dry off.
+Dialogue: 0,0:08:11.86,0:08:13.95,Default,,0,0,0,,Who do you think our customers are?
+Dialogue: 0,0:08:14.11,0:08:17.74,Default,,0,0,0,,I ain't running a gay bar here, \Nso enough with the wet t-shirts.
+Dialogue: 0,0:08:17.87,0:08:20.04,Default,,0,0,0,,Watch the wandering hands, you perv!
+Dialogue: 0,0:08:20.58,0:08:22.21,Default,,0,0,0,,Let's go get changed, Hiroki.
+Dialogue: 0,0:08:23.71,0:08:25.58,Default,,0,0,0,,I'm calling sexual harassment.
+Dialogue: 0,0:08:26.04,0:08:27.34,Default,,0,0,0,,Gimme a break.
+Dialogue: 0,0:08:32.13,0:08:35.30,Default,,0,0,0,,Hey. Those two who went up to \Nthe second floor,
+Dialogue: 0,0:08:35.59,0:08:37.10,Default,,0,0,0,,are they related to Yokota?
+Dialogue: 0,0:08:37.26,0:08:39.97,Default,,0,0,0,,Yokota? He left this place a while back.
+Dialogue: 0,0:08:40.18,0:08:41.22,Default,,0,0,0,,Oh?
+Dialogue: 0,0:08:41.39,0:08:44.19,Default,,0,0,0,,One day he just came out with \N"I'm headed for Bali."
+Dialogue: 0,0:08:44.35,0:08:46.35,Default,,0,0,0,,He's not coming back for 2 or 3 years.
+Dialogue: 0,0:08:46.52,0:08:49.27,Default,,0,0,0,,So I decided to rent that floor out \Nto someone else.
+Dialogue: 0,0:08:49.65,0:08:52.19,Default,,0,0,0,,And after all the years \Nwe'd worked together...
+Dialogue: 0,0:08:52.53,0:08:57.70,Default,,0,0,0,,Still, the idea of not having orders \Nbarked at me gives me a sense of relief.
+Dialogue: 0,0:08:58.32,0:09:01.08,Default,,0,0,0,,Yet I detect a tinge of melancholy.
+Dialogue: 0,0:09:02.04,0:09:02.91,Default,,0,0,0,,Nah.
+Dialogue: 0,0:09:03.04,0:09:06.75,Default,,0,0,0,,I'm just bored 'cause I've got no one \Nto argue with anymore.
+Dialogue: 0,0:09:06.92,0:09:09.84,Default,,0,0,0,,But I've got these two lively \Nidiots with me now, so...
+Dialogue: 0,0:09:10.00,0:09:12.13,Default,,0,0,0,,I figured I'd put them to work in the bar.
+Dialogue: 0,0:09:12.42,0:09:14.88,Default,,0,0,0,,Thanks, but I'm not smoking these days.
+Dialogue: 0,0:09:15.22,0:09:20.14,Default,,0,0,0,,Just tell me you're not subbing \Nany of my jobs to them. Are you?
+Dialogue: 0,0:09:20.56,0:09:21.81,Default,,0,0,0,,Don't sweat it, man.
+Dialogue: 0,0:09:21.97,0:09:25.89,Default,,0,0,0,,I can handle the work you give me \Njust fine on my own.
+Dialogue: 0,0:09:28.06,0:09:30.40,Default,,0,0,0,,Glad to hear it.
+Dialogue: 0,0:09:30.57,0:09:31.90,Default,,0,0,0,,By the way, Kenji,
+Dialogue: 0,0:09:32.07,0:09:34.40,Default,,0,0,0,,you got the keys to your van?
+Dialogue: 0,0:09:34.61,0:09:36.86,Default,,0,0,0,,Yeah, sure.
+Dialogue: 0,0:09:37.49,0:09:39.78,Default,,0,0,0,,I'm swapping cars with you for a while.
+Dialogue: 0,0:09:40.16,0:09:42.08,Default,,0,0,0,,I'll tell you where to go, tonight.
+Dialogue: 0,0:09:42.37,0:09:44.54,Default,,0,0,0,,I'll leave your van at the spot.
+Dialogue: 0,0:09:44.87,0:09:49.54,Default,,0,0,0,,Put the item you pick up in the trunk of \Nthis car. Leave the spare key behind too.
+Dialogue: 0,0:09:50.75,0:09:52.55,Default,,0,0,0,,You know how the rest goes.
+Dialogue: 0,0:09:52.92,0:09:55.42,Default,,0,0,0,,Don't go asking too many questions, right?
+Dialogue: 0,0:09:55.67,0:09:56.67,Default,,0,0,0,,Don't worry.
+Dialogue: 0,0:09:56.84,0:10:01.68,Default,,0,0,0,,I didn't even ask my best friend \Nwhy he took off for Bali.
+Dialogue: 0,0:10:23.99,0:10:25.70,Default,,0,0,0,,Dammit, man!
+Dialogue: 0,0:10:26.08,0:10:28.21,Default,,0,0,0,,This is too much for one guy.
+Dialogue: 0,0:10:29.92,0:10:31.46,Default,,0,0,0,,Yokota, you pain in the ass,
+Dialogue: 0,0:10:31.79,0:10:34.63,Default,,0,0,0,,leaving me to do all the heavy lifting.
+Dialogue: 0,0:10:35.00,0:10:38.26,Default,,0,0,0,,We'd split everything \Ndown the middle until now.
+Dialogue: 0,0:10:42.68,0:10:44.97,Default,,0,0,0,,Job done, I guess.
+Dialogue: 0,0:10:55.78,0:10:56.65,Default,,0,0,0,,Shit!
+Dialogue: 0,0:10:57.78,0:10:59.82,Default,,0,0,0,,The job ain't done at all!
+Dialogue: 0,0:11:07.91,0:11:10.92,Default,,0,0,0,,Mr. Katsuragi, \Nthere's no spare key in here.
+Dialogue: 0,0:11:15.55,0:11:18.38,Default,,0,0,0,,Crap, this is bad. \NThere's someone there.
+Dialogue: 0,0:11:25.10,0:11:27.72,Default,,0,0,0,,Tell me that's not the cops.
+Dialogue: 0,0:11:27.97,0:11:29.39,Default,,0,0,0,,Get a move on.
+Dialogue: 0,0:11:29.64,0:11:31.02,Default,,0,0,0,,The sun'll be up soon.
+Dialogue: 0,0:11:31.56,0:11:33.81,Default,,0,0,0,,Phew, it's Mr. Katsuragi.
+Dialogue: 0,0:11:33.98,0:11:34.73,Default,,0,0,0,,Mr. Ka...
+Dialogue: 0,0:11:38.82,0:11:40.11,Default,,0,0,0,,Something wrong?
+Dialogue: 0,0:11:41.78,0:11:43.53,Default,,0,0,0,,No. Just my imagination.
+Dialogue: 0,0:11:43.91,0:11:45.07,Default,,0,0,0,,What the hell?
+Dialogue: 0,0:11:45.41,0:11:48.87,Default,,0,0,0,,Aren't you supposed to be in Bali, Yokota?
+Dialogue: 0,0:11:55.34,0:11:58.30,Default,,0,0,0,,-What speed you doing now, then? \N-100 miles an hour!
+Dialogue: 0,0:11:58.46,0:12:01.88,Default,,0,0,0,,Hey... what the hell's  \N going on here, Yokota?
+Dialogue: 0,0:12:02.55,0:12:05.22,Default,,0,0,0,,How d'you fancy taking to the skies?
+Dialogue: 0,0:12:05.39,0:12:06.10,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:12:06.39,0:12:09.31,Default,,0,0,0,,If you head back the way we came, \Nthere's a tunnel.
+Dialogue: 0,0:12:09.56,0:12:12.02,Default,,0,0,0,,Hit the accelerator \Nas soon as you leave it.
+Dialogue: 0,0:12:12.23,0:12:15.06,Default,,0,0,0,,Do that and you'll touch the sky.
+Dialogue: 0,0:12:15.27,0:12:16.06,Default,,0,0,0,,What?
+Dialogue: 0,0:12:17.36,0:12:19.69,Default,,0,0,0,,-Look at that, it's time to go. \N-Yeah!
+Dialogue: 0,0:12:19.98,0:12:23.57,Default,,0,0,0,,Steam train! Steam train! All aboard!
+Dialogue: 0,0:12:23.74,0:12:27.03,Default,,0,0,0,,Here we go! Choo-choo!
+Dialogue: 0,0:12:27.20,0:12:28.16,Default,,0,0,0,,Crap!
+Dialogue: 0,0:12:31.16,0:12:32.00,Default,,0,0,0,,Yokota...
+Dialogue: 0,0:12:32.62,0:12:33.58,Default,,0,0,0,,Yokota.
+Dialogue: 0,0:12:33.83,0:12:36.42,Default,,0,0,0,,Yokota. Yokota. Yokota.
+Dialogue: 0,0:12:36.75,0:12:38.25,Default,,0,0,0,,Yokota!
+Dialogue: 0,0:12:52.98,0:12:55.44,Default,,0,0,0,,Kenji. You really don't remember?
+Dialogue: 0,0:12:55.94,0:12:59.44,Default,,0,0,0,,We both saw it when we were \Nretrieving those counterfeit bills.
+Dialogue: 0,0:12:59.82,0:13:01.28,Default,,0,0,0,,What were you on about?
+Dialogue: 0,0:13:01.48,0:13:02.94,Default,,0,0,0,,Counterfeit bills?
+Dialogue: 0,0:13:05.03,0:13:06.99,Default,,0,0,0,,What's going on here...?
+Dialogue: 0,0:13:17.83,0:13:19.88,Default,,0,0,0,,What happened to that spare key?
+Dialogue: 0,0:13:21.84,0:13:24.72,Default,,0,0,0,,Hey, you listening over there?  \N The spare key...
+Dialogue: 0,0:13:24.88,0:13:26.88,Default,,0,0,0,,I told you to leave it behind.
+Dialogue: 0,0:13:27.97,0:13:29.64,Default,,0,0,0,,What? You forgot?
+Dialogue: 0,0:13:29.80,0:13:32.02,Default,,0,0,0,,You really are useless.
+Dialogue: 0,0:13:32.18,0:13:36.39,Default,,0,0,0,,Fine. Let's meet at the usual park.
+Dialogue: 0,0:13:40.52,0:13:42.53,Default,,0,0,0,,I really am not a morning person.
+Dialogue: 0,0:13:43.15,0:13:46.15,Default,,0,0,0,,The dew reminds me of \Nschool girls' sweaty gym socks.
+Dialogue: 0,0:13:54.33,0:13:55.79,Default,,0,0,0,,This is your payment.
+Dialogue: 0,0:13:57.21,0:13:58.92,Default,,0,0,0,,Go wipe your ass with it!
+Dialogue: 0,0:13:59.42,0:14:01.79,Default,,0,0,0,,Whoa. No need to be so rude.
+Dialogue: 0,0:14:02.30,0:14:04.92,Default,,0,0,0,,I've hidden the key in a safe place.
+Dialogue: 0,0:14:05.13,0:14:08.68,Default,,0,0,0,,If anything happens to me, \Nit goes straight to the police.
+Dialogue: 0,0:14:11.05,0:14:12.93,Default,,0,0,0,,What're you laughing at?
+Dialogue: 0,0:14:13.31,0:14:17.39,Default,,0,0,0,,You just reminded me of another guy who \Nsaid the very same thing not long ago.
+Dialogue: 0,0:14:17.60,0:14:19.48,Default,,0,0,0,,Turned out he wasn't even bluffing,
+Dialogue: 0,0:14:19.65,0:14:22.32,Default,,0,0,0,,and the key actually did get sent \Nto the police.
+Dialogue: 0,0:14:22.94,0:14:26.44,Default,,0,0,0,,That bastard Yokota gave me \Na bunch of extra work.
+Dialogue: 0,0:14:27.49,0:14:32.20,Default,,0,0,0,,Besides, who wants to work with \Nsomeone with no sense of humor?
+Dialogue: 0,0:14:32.45,0:14:33.49,Default,,0,0,0,,You murderer!
+Dialogue: 0,0:14:33.87,0:14:38.16,Default,,0,0,0,,I'm not interested in what you think \Nbut I do want that key of yours.
+Dialogue: 0,0:14:38.33,0:14:39.79,Default,,0,0,0,,You've got it on you, right?
+Dialogue: 0,0:14:41.88,0:14:46.09,Default,,0,0,0,,Hurtling off the road like that, \Nhe'd clearly lost his mind.
+Dialogue: 0,0:14:46.46,0:14:49.30,Default,,0,0,0,,Just what did you assholes do to him?
+Dialogue: 0,0:14:49.88,0:14:52.47,Default,,0,0,0,,You were bluffing when \Nyou said you'd quit too.
+Dialogue: 0,0:14:58.81,0:15:01.40,Default,,0,0,0,,I know you really want a smoke.
+Dialogue: 0,0:15:01.73,0:15:03.40,Default,,0,0,0,,I see right through you.
+Dialogue: 0,0:15:09.95,0:15:10.99,Default,,0,0,0,,Now, I guess...
+Dialogue: 0,0:15:11.66,0:15:14.28,Default,,0,0,0,,it's just a matter of getting \Nthe information from you.
+Dialogue: 0,0:15:16.91,0:15:18.50,Default,,0,0,0,,I've called in the crushers.
+Dialogue: 0,0:15:18.66,0:15:20.29,Default,,0,0,0,,I'd watch my back if I were you.
+Dialogue: 0,0:15:28.59,0:15:30.09,Default,,0,0,0,,The "crushers"?
+Dialogue: 0,0:15:31.84,0:15:35.51,Default,,0,0,0,,Really, Kaori? Your family owns a yacht?
+Dialogue: 0,0:15:35.68,0:15:36.85,Default,,0,0,0,,Very cool.
+Dialogue: 0,0:15:37.31,0:15:38.85,Default,,0,0,0,,When's that, then?
+Dialogue: 0,0:15:39.81,0:15:40.60,Default,,0,0,0,,Hey!
+Dialogue: 0,0:15:43.90,0:15:45.73,Default,,0,0,0,,What's that face for?
+Dialogue: 0,0:15:46.02,0:15:48.61,Default,,0,0,0,,What about your face \Nwhen you're talking to Kaori?
+Dialogue: 0,0:15:48.82,0:15:52.32,Default,,0,0,0,,It's her fault we're working so late \Nthe morning paper's already come.
+Dialogue: 0,0:15:52.99,0:15:54.49,Default,,0,0,0,,She's an important client.
+Dialogue: 0,0:15:54.82,0:15:58.66,Default,,0,0,0,,Children should keep quiet \Nwhen the adults are talking.
+Dialogue: 0,0:15:58.87,0:16:00.96,Default,,0,0,0,,Who you calling a child?
+Dialogue: 0,0:16:01.12,0:16:02.96,Default,,0,0,0,,You, because you are!
+Dialogue: 0,0:16:03.62,0:16:05.75,Default,,0,0,0,,Save the foreplay for after breakfast!
+Dialogue: 0,0:16:06.46,0:16:07.55,Default,,0,0,0,,We're having a fight...
+Dialogue: 0,0:16:07.71,0:16:09.05,Default,,0,0,0,,Whatever. Cut it out!
+Dialogue: 0,0:16:10.05,0:16:13.05,Default,,0,0,0,,Hey man, you can't just \Nwalk in as you please.
+Dialogue: 0,0:16:13.22,0:16:14.26,Default,,0,0,0,,Listen, you two.
+Dialogue: 0,0:16:15.60,0:16:18.51,Default,,0,0,0,,How d'you both like the sound \Nof managing the bar?
+Dialogue: 0,0:16:19.93,0:16:23.90,Default,,0,0,0,,I know it's sudden, but I was thinking \Nof checking out Bali for 2 or 3 years.
+Dialogue: 0,0:16:24.27,0:16:25.94,Default,,0,0,0,,You guys wanted to run a bar, right?
+Dialogue: 0,0:16:26.11,0:16:28.40,Default,,0,0,0,,He who runs away,  \N lives to fight another day.
+Dialogue: 0,0:16:29.94,0:16:31.36,Default,,0,0,0,,It's all the bosses' fault.
+Dialogue: 0,0:16:31.49,0:16:34.91,Default,,0,0,0,,Sinking those fake bills right next to \Nthat body encased in concrete...
+Dialogue: 0,0:16:35.16,0:16:37.99,Default,,0,0,0,,Kenji and Yokota were bound to see it!
+Dialogue: 0,0:16:38.24,0:16:41.12,Default,,0,0,0,,Their faces were white as sheets \Nwhen they came up.
+Dialogue: 0,0:16:43.75,0:16:46.54,Default,,0,0,0,,Of course, the bosses think \Nsorting such a mess is easy.
+Dialogue: 0,0:16:46.71,0:16:51.26,Default,,0,0,0,,"Just make them forget everything," \Nthey said.
+Dialogue: 0,0:16:53.55,0:16:56.18,Default,,0,0,0,,How about a bit more of \Na head's up next time?
+Dialogue: 0,0:16:56.80,0:17:00.06,Default,,0,0,0,,Then I end up with Yokota pretending \Nhe didn't see anything
+Dialogue: 0,0:17:00.51,0:17:04.06,Default,,0,0,0,,and Kenji really believing \Nhe didn't see anything.
+Dialogue: 0,0:17:04.23,0:17:06.85,Default,,0,0,0,,Of course Yokota's going to wonder \Nwhat the hell's up!
+Dialogue: 0,0:17:10.61,0:17:15.20,Default,,0,0,0,,Makes sense that he'd steal \Na banknote or two to protect himself.
+Dialogue: 0,0:17:15.61,0:17:16.45,Default,,0,0,0,,Well...
+Dialogue: 0,0:17:16.66,0:17:20.58,Default,,0,0,0,,I think you've done pretty well \Nconsidering you don't use an image.
+Dialogue: 0,0:17:20.74,0:17:21.83,Default,,0,0,0,,Satoru.
+Dialogue: 0,0:17:22.29,0:17:25.16,Default,,0,0,0,,If you've got something to say, \Ndon't mince your words.
+Dialogue: 0,0:17:28.29,0:17:30.55,Default,,0,0,0,,If you just transfer the rent money,
+Dialogue: 0,0:17:30.71,0:17:33.46,Default,,0,0,0,,you boys can keep \Nwhatever profits are made.
+Dialogue: 0,0:17:33.84,0:17:35.47,Default,,0,0,0,,I'll do it! I'll totally do it!
+Dialogue: 0,0:17:35.72,0:17:37.64,Default,,0,0,0,,How much is the rent anyway?
+Dialogue: 0,0:17:38.01,0:17:40.10,Default,,0,0,0,,I'll send more details when I get there.
+Dialogue: 0,0:17:40.39,0:17:42.85,Default,,0,0,0,,Just make sure you tell \Npeople that I'm in Bali.
+Dialogue: 0,0:17:42.97,0:17:47.14,Default,,0,0,0,,When really I'll be in LA, \Nfar away from Bali!
+Dialogue: 0,0:17:47.69,0:17:49.81,Default,,0,0,0,,Anyway, I'd better get going.
+Dialogue: 0,0:17:51.36,0:17:54.11,Default,,0,0,0,,Huh? This is addressed to me...
+Dialogue: 0,0:17:55.28,0:17:58.41,Default,,0,0,0,,That was on the floor \Nwhen the newspaper came in.
+Dialogue: 0,0:17:59.07,0:18:00.07,Default,,0,0,0,,On the floor?
+Dialogue: 0,0:18:00.24,0:18:03.74,Default,,0,0,0,,I even went up to the 3rd floor to give it \Nto you but you weren't in.
+Dialogue: 0,0:18:04.04,0:18:05.62,Default,,0,0,0,,AIRPLANE TICKET TO LA, \NNOT BALI
+Dialogue: 0,0:18:07.75,0:18:08.62,Default,,0,0,0,,KAORI
+Dialogue: 0,0:18:12.50,0:18:14.88,Default,,0,0,0,,Weird... I thought I broke it.
+Dialogue: 0,0:18:15.05,0:18:16.09,Default,,0,0,0,,It's Kaori.
+Dialogue: 0,0:18:16.55,0:18:17.38,Default,,0,0,0,,Hello?
+Dialogue: 0,0:18:18.13,0:18:21.68,Default,,0,0,0,,Sorry about that, my smartphone's \Non the fritz at the moment.
+Dialogue: 0,0:18:23.89,0:18:24.81,Default,,0,0,0,,She hung up...
+Dialogue: 0,0:18:25.52,0:18:27.56,Default,,0,0,0,,Gimme. I'll take a look for you.
+Dialogue: 0,0:18:27.81,0:18:29.40,Default,,0,0,0,,You saying you can fix it?
+Dialogue: 0,0:18:30.06,0:18:31.31,Default,,0,0,0,,Is there something wrong?
+Dialogue: 0,0:18:31.65,0:18:33.19,Default,,0,0,0,,You're really sweating
+Dialogue: 0,0:18:33.57,0:18:34.78,Default,,0,0,0,,and acting a bit weird.
+Dialogue: 0,0:18:34.90,0:18:36.15,Default,,0,0,0,,Weird...?
+Dialogue: 0,0:18:37.57,0:18:40.74,Default,,0,0,0,,You two are the weird ones here! \NWhat the hell're you doing?
+Dialogue: 0,0:18:40.91,0:18:43.24,Default,,0,0,0,,I'm repairing his phone. \NWhat does it look like?
+Dialogue: 0,0:18:43.66,0:18:45.37,Default,,0,0,0,,Are you alright?
+Dialogue: 0,0:18:46.70,0:18:47.41,Default,,0,0,0,,Huh?
+Dialogue: 0,0:18:47.66,0:18:49.17,Default,,0,0,0,,What's up with you?
+Dialogue: 0,0:18:49.37,0:18:51.17,Default,,0,0,0,,You're looking kind of pale.
+Dialogue: 0,0:18:51.42,0:18:52.71,Default,,0,0,0,,Yeah...
+Dialogue: 0,0:18:53.71,0:18:54.92,Default,,0,0,0,,Weird...
+Dialogue: 0,0:18:56.59,0:18:58.22,Default,,0,0,0,,I must be tired.
+Dialogue: 0,0:18:59.88,0:19:01.68,Default,,0,0,0,,Man, my head hurts.
+Dialogue: 0,0:19:02.60,0:19:04.56,Default,,0,0,0,,I'm just grabbing some water.
+Dialogue: 0,0:19:05.18,0:19:06.18,Default,,0,0,0,,You got a headache?
+Dialogue: 0,0:19:06.60,0:19:08.56,Default,,0,0,0,,This is the best cure for a headache.
+Dialogue: 0,0:19:08.81,0:19:09.81,Default,,0,0,0,,What the...!
+Dialogue: 0,0:19:16.73,0:19:17.57,Default,,0,0,0,,Hey.
+Dialogue: 0,0:19:29.29,0:19:30.62,Default,,0,0,0,,What's that doing there?
+Dialogue: 0,0:19:31.46,0:19:32.92,Default,,0,0,0,,I'm supposed...
+Dialogue: 0,0:19:33.25,0:19:35.25,Default,,0,0,0,,to have quit.
+Dialogue: 0,0:19:36.34,0:19:38.42,Default,,0,0,0,,Quit messing with me!
+Dialogue: 0,0:19:40.42,0:19:43.14,Default,,0,0,0,,What're you doing, man? \NYou're gonna hurt somebody!
+Dialogue: 0,0:19:43.30,0:19:44.72,Default,,0,0,0,,You're losing it, dude!
+Dialogue: 0,0:19:46.31,0:19:47.68,Default,,0,0,0,,That's it...
+Dialogue: 0,0:19:48.85,0:19:51.85,Default,,0,0,0,,It was Katsuragi! \NHe did something to me!
+Dialogue: 0,0:19:52.73,0:19:54.36,Default,,0,0,0,,There you go again.
+Dialogue: 0,0:19:54.52,0:19:56.11,Default,,0,0,0,,You don't get it! Listen to me!
+Dialogue: 0,0:19:56.44,0:20:00.07,Default,,0,0,0,,He knows some guys who can \Nget inside people's heads!
+Dialogue: 0,0:20:00.24,0:20:03.41,Default,,0,0,0,,Those freaks know how \Nto bend people to their will!
+Dialogue: 0,0:20:03.53,0:20:05.49,Default,,0,0,0,,I'm telling you, it's true!
+Dialogue: 0,0:20:05.66,0:20:07.49,Default,,0,0,0,,They made Yokota drive off a cliff!
+Dialogue: 0,0:20:07.74,0:20:10.41,Default,,0,0,0,,I saw it with my own eyes! \NYou gotta believe me.
+Dialogue: 0,0:20:10.54,0:20:14.08,Default,,0,0,0,,Would I be acting this nuts, \Nif it wasn't true?
+Dialogue: 0,0:20:16.59,0:20:17.42,Default,,0,0,0,,Don't worry.
+Dialogue: 0,0:20:18.38,0:20:19.76,Default,,0,0,0,,We believe you.
+Dialogue: 0,0:20:23.22,0:20:24.09,Default,,0,0,0,,No...
+Dialogue: 0,0:20:24.34,0:20:25.39,Default,,0,0,0,,Are you two...
+Dialogue: 0,0:20:26.01,0:20:27.51,Default,,0,0,0,,the crushers?
+Dialogue: 0,0:20:29.22,0:20:33.02,Default,,0,0,0,,I knew something fishy was going on.
+Dialogue: 0,0:20:33.35,0:20:37.52,Default,,0,0,0,,Out of the blue, the guy's off to Bali. \NI mean, who does that?
+Dialogue: 0,0:20:38.11,0:20:41.61,Default,,0,0,0,,But I never would've guessed \NYokota was a murderer.
+Dialogue: 0,0:20:41.86,0:20:46.03,Default,,0,0,0,,Then again, it doesn't surprise me \Nall that much to be honest.
+Dialogue: 0,0:20:48.12,0:20:51.54,Default,,0,0,0,,The guy lived like he'd given up hope \Nlong ago.
+Dialogue: 0,0:20:52.00,0:20:55.17,Default,,0,0,0,,I knew he'd meet a bad end \None way or another.
+Dialogue: 0,0:20:58.17,0:21:00.67,Default,,0,0,0,,Pretty awful guy, that Yokota.
+Dialogue: 0,0:21:00.84,0:21:02.72,Default,,0,0,0,,I'm sure he was a pain in your ass too.
+Dialogue: 0,0:21:03.22,0:21:07.09,Default,,0,0,0,,You've got that right! I even got taken in \Nfor questioning 'cause of him!
+Dialogue: 0,0:21:08.01,0:21:10.85,Default,,0,0,0,,But don't worry about a thing.
+Dialogue: 0,0:21:11.18,0:21:15.19,Default,,0,0,0,,I didn't mention anything \Nabout our dealings.
+Dialogue: 0,0:21:15.52,0:21:18.81,Default,,0,0,0,,I'm not the slightest bit \Nconcerned about that.
+Dialogue: 0,0:21:21.03,0:21:22.86,Default,,0,0,0,,Oh hey. You're back.
+Dialogue: 0,0:21:23.69,0:21:26.82,Default,,0,0,0,,Who do we have here? Relatives of yours?
+Dialogue: 0,0:21:27.20,0:21:29.20,Default,,0,0,0,,Nah, nothing like that.
+Dialogue: 0,0:21:29.78,0:21:32.95,Default,,0,0,0,,I've been renting Yokota's room \Nto these two.
+Dialogue: 0,0:21:33.83,0:21:36.00,Default,,0,0,0,,Did you finish packing your things?
+Dialogue: 0,0:21:36.37,0:21:37.21,Default,,0,0,0,,Yes.
+Dialogue: 0,0:21:37.58,0:21:40.34,Default,,0,0,0,,We took the liberty of \Nusing the furniture.
+Dialogue: 0,0:21:41.09,0:21:42.34,Default,,0,0,0,,Thanks for having us.
+Dialogue: 0,0:21:42.55,0:21:46.59,Default,,0,0,0,,Well, I guess no one wants to stay \Nin a murderer's room.
+Dialogue: 0,0:21:47.09,0:21:50.35,Default,,0,0,0,,Yokota taking off like that \Ncaused you boys some problems, too.
+Dialogue: 0,0:21:50.47,0:21:53.97,Default,,0,0,0,,Hopefully this will \Nmake up for your troubles.
+Dialogue: 0,0:21:54.31,0:21:55.52,Default,,0,0,0,,No need.
+Dialogue: 0,0:21:55.68,0:21:56.73,Default,,0,0,0,,Huh?
+Dialogue: 0,0:21:57.23,0:21:59.36,Default,,0,0,0,,Keep it for cigarette money.
+Dialogue: 0,0:22:01.27,0:22:02.78,Default,,0,0,0,,What? Seriously?
+Dialogue: 0,0:22:03.36,0:22:04.61,Default,,0,0,0,,Lucky me!
+Dialogue: 0,0:22:05.36,0:22:07.20,Default,,0,0,0,,Goodbye, then.
+Dialogue: 0,0:23:50.09,0:23:55.01,Default,,0,0,0,,Artist: Ranjo Miyake
+

@@ -4,7 +4,7 @@
   "description": "MKV anime file extrack subtitle and translate thai.",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "env-cmd node index.js",
     "build": "pkg package.json --icon app.ico --output mkv-translate.exe",
     "eslint": "eslint --ext .js --ignore-path .gitignore ."
   },
@@ -21,6 +21,7 @@
   "author": "Kananek T.",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/translate": "^5.1.4",
     "@touno-io/debuger": "^2.0.2",
     "moment": "^2.24.0",
     "request": "^2.88.0",
