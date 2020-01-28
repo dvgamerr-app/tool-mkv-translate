@@ -44,6 +44,12 @@ const getTrackInfo = async file => {
   return data
 }
 
+const translateText = async (text) => {
+  let [ translations ] = await translate.translate(text.split('\\N'), { to: 'th' })
+  translations = Array.isArray(translations) ? translations : [ translations ]
+  return translations.join('\\N')
+}
+
 const assReader = async file => {
   const buff = await fs.readFile(file)
   await fs.unlink(file)
@@ -51,21 +57,16 @@ const assReader = async file => {
   let pos = 0
   const ass = await fs.open(path.basename(file), 'w')
   for await (let line of buff.toString().split('\n')) {
-    let msg = `${line}\n`
+    line = `${line}\n`
     if (/^Dialogue/ig.test(line)) {
       let [ , style, text ] = /(\d,[\d:.]+?,[\d:.]+?,.*?,.*?,.*?,.*?,.*?,.*?,)(.*)/ig.exec(line)
-      if (text) {
-        let [ translations ] = await translate.translate(text.split('\\N'), { to: 'th' })
-        translations = Array.isArray(translations) ? translations : [ translations ]
-        msg = `${style}${translations.join('\\N')}\n`
-      }
+      if (text) line = `${style}${translateText(text)}\n`
     }
-    let data = Buffer.from(msg, 'utf-8')
+    let data = Buffer.from(line, 'utf-8')
     await ass.write(data, 0, data.length, pos)
     pos += data.length
   }
   await ass.close()
-  console.log(path.basename(file))
 }
 
 const getSubtitle = async (file, track) => {
