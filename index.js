@@ -1,5 +1,6 @@
 const logger = require('@touno-io/debuger')('translate')
 const { promises: fs, existsSync } = require('fs')
+const { Translate } = require('@google-cloud/translate').v2
 const path = require('path')
 const os = require('os')
 const err = require('./error')
@@ -11,6 +12,8 @@ const dirMKVToolNix = 'C:/Program Files/MKVToolNix'
 const mkvextract = 'mkvextract.exe'
 const mkvinfo = 'mkvinfo.exe'
 const mkvmerge = 'mkvmerge.exe'
+const translate = new Translate()
+
 const getTrackInfo = async file => {
   let raw = await onExecute(path.join(dirMKVToolNix, mkvinfo), [ file ])
   let data = {
@@ -48,12 +51,18 @@ const assReader = async file => {
   let pos = 0
   const ass = await fs.open(path.basename(file), 'w')
   for await (let line of buff.toString().split('\n')) {
+    let msg = `${line}\n`
     if (/^Dialogue/ig.test(line)) {
-      // console.log(line)
+      let [ , style, text ] = /(\d,[\d:.]+?,[\d:.]+?,.*?,.*?,.*?,.*?,.*?,.*?,)(.*)/ig.exec(line)
+      if (text) {
+        let [ translations ] = await translate.translate(text.split('\\N'), { to: 'th' })
+        translations = Array.isArray(translations) ? translations : [ translations ]
+        msg = `${style}${translations.join('\\N')}\n`
+      }
     }
-    line = `${line}\n`
-    await ass.write(Buffer.from(line, 'utf-8'), 0, line.length, pos)
-    pos += line.length
+    let data = Buffer.from(msg, 'utf-8')
+    await ass.write(data, 0, data.length, pos)
+    pos += data.length
   }
   await ass.close()
   console.log(path.basename(file))
@@ -122,17 +131,7 @@ const checkMKVTool = async () => {
 }
 
 checkMKVTool().then(async () => {
-  const { Translate } = require('@google-cloud/translate').v2
 
-  // Creates a client
-  const translate = new Translate()
-
-  let [ translations ] = await translate.translate('Hello world', { to: 'th' })
-  translations = Array.isArray(translations) ? translations : [ translations ]
-  console.log('Translations:');
-  translations.forEach((translation, i) => {
-    console.log(`${i} => (th) ${translation}`)
-  })
   
 
 
