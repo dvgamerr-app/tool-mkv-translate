@@ -1,6 +1,6 @@
 {
   "name": "mkv-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MKV anime file extrack subtitle and translate thai.",
   "main": "index.js",
   "scripts": {
