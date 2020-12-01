@@ -21,7 +21,7 @@
   "author": "Kananek T.",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/translate": "^5.1.4",
+    "@google-cloud/translate": "^6.0.4",
     "@touno-io/debuger": "^2.0.2",
     "moment": "^2.24.0",
     "request": "^2.88.0",
